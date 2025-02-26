@@ -43,6 +43,7 @@ cd backend
 
 
 Install dependencies:
+
 npm install
 
 
@@ -53,6 +54,7 @@ JWT_SECRET=<your_jwt_secret>
 
 
 Start the backend server:
+
 npm start
 
 
@@ -61,23 +63,30 @@ Navigate to the frontend directory:
 cd ../frontend
 
 Install dependencies:
+
 npm install
 
 Start the frontend application:
+
 npm start
 
 4. Access the Application
 Open your browser and go to: http://localhost:3000
 
 Usage
+
 Users: Can sign up, browse restaurants, add items to their cart, and place orders.
+
 Admin (if applicable): Can manage restaurants, menus, and order statuses.
 
 Related Projects
+
 Check out another project: Smart Chat Bot – A web application that facilitates real-time customer support interactions using WebSockets and AI-driven features.
 
 Contributing
+
 Contributions are welcome! Feel free to submit a pull request or open an issue for improvements.
 
 License
+
 This project is licensed under the MIT License.
