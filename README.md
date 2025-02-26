@@ -9,6 +9,7 @@ Restaurant & Menu Browsing: View available restaurants and their menu items.
 Cart & Order Management: Add items to the cart and place orders.
 Order Checkout: Seamless checkout process for placing orders.
 Responsive Design: Optimized for both desktop and mobile devices.
+
 Technologies Used
 Frontend: React, CSS
 Backend: Node.js, Express.js
@@ -20,65 +21,50 @@ Before running the project, ensure you have:
 
 Node.js (v14 or higher)
 MongoDB installed and running locally or a cloud database connection
+
+
 Git for cloning the repository
 Getting Started
 1. Clone the Repository
-sh
-Copy
-Edit
 git clone https://github.com/AR-796/GoFood.git
 cd GoFood
-2. Set Up the Backend
+
+3. Set Up the Backend
 Navigate to the backend directory:
-
-sh
-Copy
-Edit
 cd backend
+
+
 Install dependencies:
-
-sh
-Copy
-Edit
 npm install
-Create a .env file in the backend directory and configure environment variables:
 
-ini
-Copy
-Edit
+
+Create a .env file in the backend directory and configure environment variables:
 PORT=5000
 MONGODB_URI=<your_mongodb_connection_string>
 JWT_SECRET=<your_jwt_secret>
-Start the backend server:
 
-sh
-Copy
-Edit
+
+Start the backend server:
 npm start
+
+
 3. Set Up the Frontend
 Navigate to the frontend directory:
-
-sh
-Copy
-Edit
 cd ../frontend
+
 Install dependencies:
-
-sh
-Copy
-Edit
 npm install
-Start the frontend application:
 
-sh
-Copy
-Edit
+Start the frontend application:
 npm start
+
 4. Access the Application
 Open your browser and go to: http://localhost:3000
+
 Usage
 Users: Can sign up, browse restaurants, add items to their cart, and place orders.
 Admin (if applicable): Can manage restaurants, menus, and order statuses.
+
 Related Projects
 Check out another project: Smart Chat Bot – A web application that facilitates real-time customer support interactions using WebSockets and AI-driven features.
 
