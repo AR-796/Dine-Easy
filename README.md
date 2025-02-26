@@ -11,6 +11,7 @@ Order Checkout: Seamless checkout process for placing orders.
 Responsive Design: Optimized for both desktop and mobile devices.
 
 Technologies Used
+
 Frontend: React, CSS
 Backend: Node.js, Express.js
 Database: MongoDB
